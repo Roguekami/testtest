@@ -865,7 +865,8 @@ margin-top: 2rem;}
      height: 100%;
   margin-left: 2rem;
  margin-top: 2rem;
-  padding-top: 50px
+  padding-top: 50px;
+  margin-bottom: 10rem;
 }
  
  
@@ -908,69 +909,75 @@ margin-top: 2rem;}
     
     
     
-    #tega{ 
-      display: flex;
-      flex-direction: column;
-      background: rgb(250, 237, 212);
-      margin-top: 2rem;
-      height: 500px;
-    }
-    
-    .bigD{ margin-left: 2%;
-      margin-top: 20px;
-      float: left;
-      width: 90%;
-      height: 70%;
-      padding-left: 1rem;
-           }
-    .box{
-      padding-bottom: 50px;
-      font-size: larger;
-    }
-    .box1{ padding-bottom: 50px;
-      font-size: larger;}
-    .box2{padding-bottom: 40px;
-      font-size: larger;}
-    
-    
-    .social{ padding-top: 20px; }
-    .linkd{ margin-left: 15px;}
-    .minbox{ padding-right: 15px;}
-    
-    .minbox2{  padding-right: 15px; }
-    
-    
-    
-    .nav_p{
-      display: flex;
-      gap: 3px;
-      padding-bottom: 2rem;
-      width: 99%;
-    
-    
-    }
-    
-    .nav_p2{
-      display: flex;
-      gap: 13px;
-      padding-bottom: 2rem;
-    
-      width: 99%;
-    }
-    
-    
-    .list2{list-style-type: none;
-      flex-direction: column;
-      padding-left: 2%;
-      color: #6C7175;
-      padding-bottom: 3rem;
-      gap: 30px;
-      margin-left: 1rem;
-    
-    
-  
-
+       #tega{ 
+        display: flex;
+        flex-direction: column;
+        background: rgb(248, 248, 248);
+        margin-top: 0rem;
+        height: 620px;
+        
+        
       }
+      
+      .bigD{ margin-left: 30px;
+        margin-top: 20px;
+        float: left;
+        width: 89%;
+        height: 40%;
+      }
+      .box{
+        padding-bottom: 54px;
+        font-size: larger;
+        
+      
+      }
+      .box1{ padding-bottom: 50px;
+        font-size: larger;}
+      .box2{padding-bottom: 40px;
+        font-size: larger;}
+      
+      
+      .social{ padding-top: 20px; }
+      .linkd{ margin-left: 15px;}
+      .minbox{ padding-right: 1px;}
+      
+      .minbox2{  padding-right: 1%;}
+      
+      
+      
+      .nav_p{
+        display: flex;
+        gap: 3px;
+        padding-bottom: 2rem;
+        width: 100%;  
+      }
+      
+      .nav_p2{
+        display: flex;
+        gap: 13px;
+        padding-bottom: 2rem;
+        width: 90%;
+      }
+      
+      .list001{
+        width: 90%;
+        float: left;
+        margin-left: 30px;
+        margin-top: 50px;
+        height: 40%;
+        margin-bottom: 80px;
+        border: 1p
+        }
+        
+        .list2{
+       gap: 50px;
+          color: #6C7175;
+        display: inline; 
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+     }
+        
     }
     
     
@@ -1216,8 +1223,7 @@ margin-top: 2rem;}
   margin-left: 2rem;
  margin-top: 0.5rem;
   padding-top: 50px;
-  
-   
+  padding-bottom: 10rem;
 }
  
  
@@ -1265,60 +1271,71 @@ margin-top: 2rem;}
       display: flex;
       flex-direction: column;
       background: rgb(248, 248, 248);
-      height: 600px;}
+      margin-top: 0rem;
+      height: 620px;
       
-      .bigD{ margin-left: 50px;
+      
+    }
+    
+    .bigD{ margin-left: 30px;
       margin-top: 20px;
       float: left;
-           }
-      .box{
-      padding-bottom: 50px;
+      width: 89%;
+      height: 40%;
+    
+    }
+    .box{
+      padding-bottom: 54px;
       font-size: larger;
-      }
-      .box1{ padding-bottom: 50px;
+      
+    
+    }
+    .box1{ padding-bottom: 50px;
       font-size: larger;}
-      .box2{padding-bottom: 40px;
+    .box2{padding-bottom: 40px;
       font-size: larger;}
-      
-      
-      .social{ padding-top: 20px; }
-      .linkd{ margin-left: 15px;}
-      .minbox{ padding-right: 15px;}
-      
-      .minbox2{  padding-right: 15px; }
-      
-      
-      
-      .nav_p{
+    
+    
+    .social{ padding-top: 20px; }
+    .linkd{ margin-left: 15px;}
+    .minbox{ padding-right: 1px;}
+    
+    .minbox2{  padding-right: 1%;}
+    
+    
+    
+    .nav_p{
       display: flex;
       gap: 3px;
       padding-bottom: 2rem;
-      }
-      
-      .nav_p2{
+      width: 100%;  
+    }
+    
+    .nav_p2{
       display: flex;
       gap: 13px;
       padding-bottom: 2rem;
+      width: 90%;
+    }
+    
+    .list001{
+      width: 90%;
+      float: left;
+      margin-left: 30px;
+      margin-top: 50px;
+      height: 40%;
+      margin-bottom: 80px;
+    
       }
-      .nav_p3{
+      
+      .list2{
+     gap: 40px;
+        color: #6C7175;
+      display: inline; 
+      list-style-type: none;
       display: flex;
-      gap: 3px;
-      padding-bottom: 2rem;
-      }
-      
-      
-      .list2{list-style-type: none;
       flex-direction: column;
-      padding-left: 3rem;
-      gap: 40px;
-      padding-top: 1px;
-      padding-bottom: 5rem;
-      color: #6C7175;} 
-       
-        
- 
-  
-
+    }
       
    }
 
