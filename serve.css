@@ -521,7 +521,7 @@ margin-top: 2rem;}
       margin-left: 1rem;
      margin-top: 2rem;
       padding-top: 50px;
-      
+      margin-bottom: 7rem;
     }
      
      
@@ -558,67 +558,29 @@ margin-top: 2rem;}
          font-size: x-large;}
       
 
-         #tega{ 
-        
-          display: flex;
-          flex-direction: column;
-          background: rgb(250, 237, 212);
-          margin-top: 2rem;
-          height: 500px;
-        }
-        
-        .bigD{ margin-left: 2%;
-          margin-top: 20px;
-          float: left;
-          width: 98%;
-          height: 70%;
-               }
-        .box{
-          padding-bottom: 50px;
-          font-size: larger;
-        }
-        .box1{ padding-bottom: 50px;
-          font-size: larger;}
-        .box2{padding-bottom: 40px;
-          font-size: larger;}
-        
-        
-        .social{ padding-top: 20px; }
-        .linkd{ margin-left: 15px;}
-        .minbox{ padding-right: 15px;}
-        
-        .minbox2{  padding-right: 15px; }
-        
-        
-        
-        .nav_p{
-          display: flex;
-          gap: 3px;
-          padding-bottom: 2rem;
-          width: 99%;
-        
-        
-        }
+         
         #tega{ 
           display: flex;
           flex-direction: column;
-          background: rgb(250, 237, 212);   
-           margin-top: 2rem;
-          height: 500px;
+          background: rgb(248, 248, 248);
+          margin-top: 2rem;
+          height: 600px;
+          
           
         }
         
-        .bigD{ margin-left: 2%;
+        .bigD{ margin-left: 20px;
           margin-top: 20px;
           float: left;
-          width: 90%;
-          height: 70%;
-          padding-left: 1rem;
+          width: 89%;
           
-               }
+          
+        }
         .box{
-          padding-bottom: 50px;
+          padding-bottom: 54px;
           font-size: larger;
+          
+        
         }
         .box1{ padding-bottom: 50px;
           font-size: larger;}
@@ -628,9 +590,9 @@ margin-top: 2rem;}
         
         .social{ padding-top: 20px; }
         .linkd{ margin-left: 15px;}
-        .minbox{ padding-right: 15px;}
+        .minbox{ padding-right: 1px;}
         
-        .minbox2{  padding-right: 15px; }
+        .minbox2{  padding-right: 1%;}
         
         
         
@@ -638,31 +600,35 @@ margin-top: 2rem;}
           display: flex;
           gap: 3px;
           padding-bottom: 2rem;
-          width: 99%;
-        
-        
+          width: 100%;  
         }
         
         .nav_p2{
           display: flex;
           gap: 13px;
           padding-bottom: 2rem;
-        
-          width: 99%;
+          width: 90%;
         }
         
+        .list001{
+          width: 85%;
+          float: left;
+          margin-left: 20px;
+          margin-top: 18px;
+          margin-bottom: 4rem;
+      
         
-        .list2{list-style-type: none;
+          }
+          
+          .list2{
+            gap: 50px;
+            color: #6C7175;
+          display: inline; 
+          list-style-type: none;
+          display: flex;
           flex-direction: column;
-          padding-left: 2%;
-          color: #6C7175;
-          padding-bottom: 3rem;
-          gap: 30px;
-          margin-left: 1rem;
         
-        
-        }
-        
+          }
      }
      @media screen and (min-width: 420px) and (max-width: 600px) {
       *{

@@ -486,15 +486,15 @@ nav{
      padding: 12px 30px;
      margin-left: 7.5rem;
      margin-top: 20px;
-     border: 1px solid;
+  
      width: 40%;
     }
 
 
     #him{
-      height: 3100px;
+      height: 2900px;
       margin-top: 4rem;
-    border: 1px solid;
+  
       
     
    }
@@ -541,7 +541,7 @@ nav{
      }
   
        
-     }
+     
    
    
    .gen{
@@ -562,7 +562,6 @@ nav{
      margin-top: 0px;
      padding-bottom: 10px;
      margin-bottom: 10px;
-     border: 1px solid;
 
    
    }
@@ -581,7 +580,6 @@ nav{
    .div4{
      width: 90%;
      height: 40vh;
-     border: 1px solid;
 
    }
    
@@ -632,8 +630,8 @@ nav{
   flex-direction: column;
   background: rgb(248, 248, 248);
   margin-top: 2rem;
-  height: 720px;
-  border: 1px solid;
+  height: 680px;
+  
   
 }
 
@@ -641,13 +639,13 @@ nav{
   margin-top: 20px;
   float: left;
   width: 89%;
-  border: 1px  solid;
+
   height: 40%;
 }
 .box{
   padding-bottom: 54px;
   font-size: larger;
-  border: 1px solid;
+  
 
 }
 .box1{ padding-bottom: 50px;
@@ -682,9 +680,9 @@ nav{
   width: 90%;
   float: left;
   margin-left: 20px;
-  margin-top: 18px;
-  border: 1px solid;
+  margin-top: 90px;
   height: 35%;
+  margin-bottom: 0%;
   }
   
   .list2{

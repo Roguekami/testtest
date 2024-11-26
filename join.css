@@ -320,11 +320,10 @@ label{  font-size: large;
       top: 25rem;
     }
     .jon{
-      width: 100%;
+      width: 95%;
       height: 100%;
       margin-left: 0rem;
-        
-  
+      margin-bottom: 4rem;
   
   }
   
@@ -410,71 +409,26 @@ label{  font-size: large;
   }
   #tega{ 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     background: rgb(248, 248, 248);
-    height: 300px;
-    }
-  
-  .bigD{ margin-left: 50px;
-    margin-top: 20px;
-    float: left;
+    margin-top: 2rem;
+    height: 600px;
     
-         }
-  .box{
-    padding-bottom: 50px;
-    font-size: larger;
-  }
-  .box1{ padding-bottom: 50px;
-    font-size: larger;}
-  .box2{padding-bottom: 40px;
-    font-size: larger;}
-  
-  
-  .social{ padding-top: 20px; }
-  .linkd{ margin-left: 15px;}
-  .minbox{ padding-right: 15px;}
-  
-  .minbox2{  padding-right: 15px; }
-  
-  
-  
-  .nav_p{
-    display: flex;
-    gap: 3px;
-    padding-bottom: 2rem;
+    
   }
   
-  .nav_p2{
-    display: flex;
-    gap: 13px;
-    padding-bottom: 2rem;
-  }
-  
-  .list2{list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    padding-top: 15px;
-    padding-right: 5%;
-    color: #6C7175;}
-  
-    #tega{ 
-    display: flex;
-    flex-direction: column;
-    background: rgb(248, 248, 248);
-        margin-top: 2rem;
-    height: 500px;
-  }
-  
-   .bigD{ margin-left: 2%;
+  .bigD{ margin-left: 20px;
     margin-top: 20px;
     float: left;
-    width: 98%;
-    height: 70%;
-         }
+    width: 89%;
+    
+    
+  }
   .box{
-    padding-bottom: 50px;
+    padding-bottom: 54px;
     font-size: larger;
+    
+  
   }
   .box1{ padding-bottom: 50px;
     font-size: larger;}
@@ -484,9 +438,9 @@ label{  font-size: large;
   
   .social{ padding-top: 20px; }
   .linkd{ margin-left: 15px;}
-  .minbox{ padding-right: 15px;}
+  .minbox{ padding-right: 1px;}
   
-  .minbox2{  padding-right: 15px; }
+  .minbox2{  padding-right: 1%;}
   
   
   
@@ -494,30 +448,36 @@ label{  font-size: large;
     display: flex;
     gap: 3px;
     padding-bottom: 2rem;
-    width: 99%;
-  
-  
+    width: 100%;  
   }
   
   .nav_p2{
     display: flex;
     gap: 13px;
     padding-bottom: 2rem;
-  
-    width: 99%;
+    width: 90%;
   }
   
+  .list001{
+    width: 85%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 4rem;
+
   
-  .list2{list-style-type: none;
+    }
+    
+    .list2{
+      gap: 50px;
+      color: #6C7175;
+    display: inline; 
+    list-style-type: none;
+    display: flex;
     flex-direction: column;
-    padding-left: 2%;
-    color: #6C7175;
-    padding-bottom: 3rem;
-    gap: 30px;
   
-  
-  }
-  }
+    }
+}
   
 
   @media screen and (min-width: 420px) and (max-width: 600px) {
