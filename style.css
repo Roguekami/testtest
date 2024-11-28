@@ -274,15 +274,17 @@ font-size: 20px;
   .ceo img{
     width: 100%;
   }
+
 #tega{ 
-  
+  display: flex;
+  justify-content: space-between;
   background: rgb(248, 248, 248);
+  
   height: 300px;}
 
 .bigD{ margin-left: 50px;
   margin-top: 20px;
   float: left;
-  width: 50%;
        }
 .box{
   padding-bottom: 50px;
@@ -320,21 +322,13 @@ font-size: 20px;
 }
 
 
-.list001{
-width: 40%;
-float: left;
-margin-left: 5rem;
-margin-top: 18px;
-}
-
-.list2{
+.list2{list-style-type: none;
+  display: flex;
+  flex-direction: row;
   gap: 50px;
-  color: #6C7175;
-display: inline; 
-list-style-type: none;
-display: flex;
-flex-direction: row;
-}
+  padding-top: 15px;
+  padding-right: 5%;
+  color: #6C7175;}
 
 
 @media screen and (max-width: 420px){
@@ -342,7 +336,7 @@ flex-direction: row;
 
 *{
   margin: 0%;
-  padding: 0%
+  padding: 0%;
 }
 
 
@@ -486,15 +480,14 @@ nav{
      padding: 12px 30px;
      margin-left: 7.5rem;
      margin-top: 20px;
-  
-     width: 40%;
+
     }
 
 
     #him{
-      height: 2900px;
+      height: 3500px;
       margin-top: 4rem;
-  
+      
       
     
    }
@@ -539,30 +532,34 @@ nav{
      margin-bottom: 20px;
      margin-left: 11px;
      }
-  
+   
+     .shin{
        
-     
+       height: 700px;
+       margin-top: 10px;
+       
+       
+     }
    
    
    .gen{
-       width: 93%;
-       height: 1820px;
-       padding-top: 1px;
-       margin-left: 10px;
+       width: 100%;
+       height: 1800px;
+       margin-top: 0%;
+       margin-left: 0%;
      }
    
      .gen1{
        margin-left: 0%;
-       margin-top: 2rem;
 
      }
    .div1{
      width: 90%;
-     height: 200px;
-     margin-top: 0px;
+     height: 40vh;
      padding-bottom: 10px;
-     margin-bottom: 30px;
-    
+     margin-bottom: 10px;
+     border: 1px solid;
+
    
    }
    .div2_img{
@@ -573,16 +570,14 @@ nav{
    .div3{
      width: 90%;
      float: left;
-    
+     
    }
    
    
    .div4{
      width: 90%;
-     height: 200px;
-     margin-bottom: 20px;
-     margin-top: 20px;
-     
+     height: 40vh;
+     border: 1px solid;
 
    }
    
@@ -633,22 +628,24 @@ nav{
   flex-direction: column;
   background: rgb(248, 248, 248);
   margin-top: 2rem;
-  height: 680px;
-  
+  height: 750px;
+  border: 1px solid;
   
 }
 
-.bigD{ margin-left: 20px;
+.bigD{ margin-left: 0%;
   margin-top: 20px;
   float: left;
-  width: 89%;
-
-  height: 40%;
-}
+  width: 90%;
+  height: 50%;
+  margin-left: 10px;
+  border: 1px  solid red;
+   
+       }
 .box{
-  padding-bottom: 54px;
+  padding-bottom: 50px;
   font-size: larger;
-  
+  border: 1px solid;
 
 }
 .box1{ padding-bottom: 50px;
@@ -679,31 +676,22 @@ nav{
   width: 90%;
 }
 
-.list001{
-  width: 90%;
-  float: left;
-  margin-left: 20px;
-  margin-top: 90px;
-  height: 35%;
-  margin-bottom: 0%;
-  }
-  
-  .list2{
-    gap: 50px;
-    color: #6C7175;
-  display: inline; 
-  list-style-type: none;
-  display: flex;
+
+.list2{list-style-type: none;
   flex-direction: column;
-  }
-  
+  padding-left: 1rem;
+  color: #6C7175;
+  padding-bottom: 1rem;
+  gap: 30px;
+}
+
 }
 
 @media screen and (min-width: 420px) and (max-width: 600px) {
   *{
     margin: 0%;
     padding: 0%;
-    
+  
   }
   
   
@@ -911,8 +899,6 @@ margin-bottom: 20px;
 width: 100%;
 height: 26vh;
 
-margin-bottom: 10px;
-
 }
 .div2_img{
 width: 20px;
@@ -979,75 +965,61 @@ width: 75%;}
   width: 250%;
 }
 
- 
 #tega{ 
-  display: flex;
-  flex-direction: column;
-  background: rgb(248, 248, 248);
-  margin-top: 2rem;
-  height: 620px;
-  
-  
-}
+display: flex;
+flex-direction: column;
+background: rgb(248, 248, 248);
+height: 600px;}
 
-.bigD{ margin-left: 30px;
-  margin-top: 20px;
-  float: left;
-  width: 89%;
-  height: 40%;
-}
+.bigD{ margin-left: 2rem;
+margin-top: 20px;
+float: left;
+     }
 .box{
-  padding-bottom: 54px;
-  font-size: larger;
-  
-
+padding-bottom: 50px;
+font-size: larger;
 }
 .box1{ padding-bottom: 50px;
-  font-size: larger;}
+font-size: larger;}
 .box2{padding-bottom: 40px;
-  font-size: larger;}
+font-size: larger;}
 
 
 .social{ padding-top: 20px; }
 .linkd{ margin-left: 15px;}
-.minbox{ padding-right: 1px;}
+.minbox{ padding-right: 15px;}
 
-.minbox2{  padding-right: 1%;}
+.minbox2{  padding-right: 15px; }
 
 
 
 .nav_p{
-  display: flex;
-  gap: 3px;
-  padding-bottom: 2rem;
-  width: 100%;  
+display: flex;
+gap: 3px;
+padding-bottom: 2rem;
 }
 
 .nav_p2{
-  display: flex;
-  gap: 13px;
-  padding-bottom: 2rem;
-  width: 90%;
+display: flex;
+gap: 13px;
+padding-bottom: 2rem;
+}
+.nav_p3{
+display: flex;
+gap: 3px;
+padding-bottom: 2rem;
 }
 
-.list001{
-  width: 90%;
-  float: left;
-  margin-left: 30px;
-  margin-top: 50px;
-  height: 35%;
-  margin-bottom: 0%;
-  
-  }
-  
-  .list2{
-    gap: 50px;
-    color: #6C7175;
-  display: inline; 
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  }
+
+.list2{list-style-type: none;
+flex-direction: column;
+padding-left: 2rem;
+gap: 40px;
+padding-top: 1px;
+padding-bottom: 5rem;
+color: #6C7175;} 
+
+
   
 }
 
@@ -1331,74 +1303,60 @@ width: 75%;}
 }
 
 #tega{ 
-  display: flex;
-  flex-direction: column;
-  background: rgb(248, 248, 248);
-  margin-top: 0rem;
-  height: 620px;
-  
-  
-}
+display: flex;
+flex-direction: column;
+background: rgb(248, 248, 248);
+height: 600px;}
 
-.bigD{ margin-left: 30px;
-  margin-top: 20px;
-  float: left;
-  width: 89%;
-  height: 40%;
-
-}
+.bigD{ margin-left: 50px;
+margin-top: 20px;
+float: left;
+     }
 .box{
-  padding-bottom: 54px;
-  font-size: larger;
-  
-
+padding-bottom: 50px;
+font-size: larger;
 }
 .box1{ padding-bottom: 50px;
-  font-size: larger;}
+font-size: larger;}
 .box2{padding-bottom: 40px;
-  font-size: larger;}
+font-size: larger;}
 
 
 .social{ padding-top: 20px; }
 .linkd{ margin-left: 15px;}
-.minbox{ padding-right: 1px;}
+.minbox{ padding-right: 15px;}
 
-.minbox2{  padding-right: 1%;}
+.minbox2{  padding-right: 15px; }
 
 
 
 .nav_p{
-  display: flex;
-  gap: 3px;
-  padding-bottom: 2rem;
-  width: 100%;  
+display: flex;
+gap: 3px;
+padding-bottom: 2rem;
 }
 
 .nav_p2{
-  display: flex;
-  gap: 13px;
-  padding-bottom: 2rem;
-  width: 90%;
+display: flex;
+gap: 13px;
+padding-bottom: 2rem;
+}
+.nav_p3{
+display: flex;
+gap: 3px;
+padding-bottom: 2rem;
 }
 
-.list001{
-  width: 90%;
-  float: left;
-  margin-left: 30px;
-  margin-top: 50px;
-  height: 40%;
-  margin-bottom: 80px;
 
-  }
+.list2{list-style-type: none;
+flex-direction: column;
+padding-left: 3rem;
+gap: 40px;
+padding-top: 1px;
+padding-bottom: 5rem;
+color: #6C7175;} 
+ 
   
-  .list2{
- gap: 40px;
-    color: #6C7175;
-  display: inline; 
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-}
 }
 
 @media screen and (min-width:768px) and (max-width: 1020px){
